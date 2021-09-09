@@ -22,7 +22,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Our other bot for download youtube video @raguutubebot !"
 HELP = """🏷️ **Need Help?** 🤔
 __(Join )__
 
@@ -49,7 +49,7 @@ __(Join )__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: Ragu G** 👑
 """
 
 
@@ -57,11 +57,11 @@ __(Join )__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
+        InlineKeyboardButton(' Telegram stickers ', url='https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTc2ODU0NzI4Mzk4MjY5?'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/raguutubebot'),
     ],
     [
-        InlineKeyboardButton('Youtube BOTS', url='https://t.me/raguutubebot'),
+        InlineKeyboardButton('Youtube BOTS', url='https://t.me/raguutubebot'), 
         InlineKeyboardButton('Report bugs ', url='https://www.instagram.com/ragug19?'),
     ],
     [
